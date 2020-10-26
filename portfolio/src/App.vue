@@ -24,8 +24,12 @@ export default {
 </script>
 
 <style>
+a, a:visited, a:hover {
+  color: black;
+}
 #nav {
   background-color: #3d85c6;
+  color: inherit;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
